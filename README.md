@@ -22,19 +22,19 @@ This is a backend project developed using **Node.js** and **Pug template engine*
 - **Authentication**: Csurf
 
 ## Login-Register Screens: 
-![Login](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/login.png)
-![Register](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/register.png)
+![Login](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/logins.png)
+![Register](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/registers.png)
 
 ## Project Admin Panels: 
-![Home](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Home.png)
-![AdminProduct](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AdminProduct.png)
-![Add Product](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AddProduct.png)
-![Category](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Category.png)
-![CategoryDelete](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/CategoryDelete.png)
-![ProductEdit](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/ProductEdit.png)
+![Home](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Homes.png)
+![AdminProduct](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AdminProducts.png)
+![Add Product](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AddProducts.png)
+![Category](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Categor.png)
+![CategoryDelete](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/CategoryDeletes.png)
+![ProductEdit](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/ProductEdits.png)
 
 ## Project User Panels:  
-![Details](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/dtails.png)
-![Cart](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/carts.png)
-![Order](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/orders.png)
+![Details](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/details.png)
+![Cart](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/cart.png)
+![Order](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/order.png)
 
