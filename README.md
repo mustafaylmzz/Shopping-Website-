@@ -2,18 +2,26 @@
 Backend project with Node.js and Pug template engine
 
 ## Login-Register: 
-![Login](public/ss/login.png)
-![Register](public/ss/register.png)
+![Login](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/login.png)  
+
+![Register](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/register.png)  
 
 ## Project Admin Panels: 
-![Home](public/ss/Home.png)
-![AdminProduct](public/ss/AdminProduct.png)
-![Add Product](public/ss/AddProduct.png)
-![Category](public/ss/Category.png)
-![CategoryDelete](public/ss/CategoryDelete.png)
-![ProductEdit](public/ss/ProductEdit.png)
+![Home](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Home.png)  
 
-## Project User Panels:
-![Details](public/ss/dtails.png)
-![Cart](public/ss/carts.png)
-![Order](public/ss/orders.png)
+![AdminProduct](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AdminProduct.png)  
+
+![Add Product](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AddProduct.png)  
+
+![Category](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Category.png)  
+
+![CategoryDelete](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/CategoryDelete.png)  
+
+![ProductEdit](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/ProductEdit.png)  
+
+## Project User Panels:  
+![Details](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/dtails.png)  
+
+![Cart](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/carts.png)  
+
+![Order](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/orders.png)  
