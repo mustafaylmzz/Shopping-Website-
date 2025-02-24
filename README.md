@@ -22,19 +22,19 @@ This is a backend project developed using **Node.js** and **Pug template engine*
 - **Authentication**: Csurf
 
 ## Login-Register Screens: 
-![Login] (public/ss/lgn.png)
-![Register](public/ss/rgstr.png)
+![Login] (public/ss/lgns.png)
+![Register](public/ss/rgstrs.png)
 
 ## Project Admin Panels: 
-![Home](public/ss/hm.png)
-![AdminProduct](public/ss/list.png)
-![Add Product](public/ss/Add.png)
-![Category](public/ss/ctgry.png)
-![CategoryDelete](public/ss/ctgrydlt.png)
-![ProductEdit](public/ss/prdctedt.png)
+![Home](public/ss/homs.png)
+![AdminProduct](public/ss/lists.png)
+![Add Product](public/ss/addprdct.png)
+![Category](public/ss/ctgrys.png)
+![CategoryDelete](public/ss/ctgrydlts.png)
+![ProductEdit](public/ss/prdctedts.png)
 
 ## Project User Panels:  
-![Details](public/ss/dtls.png)
-![Cart](public/ss/crt.png)
-![Order](public/ss/ordr.png)
+![Details](public/ss/dtl.png)
+![Cart](public/ss/crts.png)
+![Order](public/ss/ordrs.png)
 
