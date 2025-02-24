@@ -19,29 +19,22 @@ This is a backend project developed using **Node.js** and **Pug template engine*
 - **Backend**: Node.js, Express.js
 - **Frontend**: Pug Template Engine
 - **Database**: PostgreSQL
-- **Authentication**: JWT (JSON Web Token)
+- **Authentication**: Csurf
 
 ## Login-Register Screens: 
-![Login](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/login.png)  
-![Register](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/register.png)  
+![Login]  
+![Register]  
 
 ## Project Admin Panels: 
-![Home](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Home.png)  
-![AdminProduct](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AdminProduct.png)  
-![Add Product](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AddProduct.png)  
-![Category](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Category.png)  
-![CategoryDelete](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/CategoryDelete.png)  
-![ProductEdit](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/ProductEdit.png)  
+![Home]
+![AdminProduct]  
+![Add Product]  
+![Category]
+![CategoryDelete]  
+![ProductEdit] 
 
 ## Project User Panels:  
-![Details](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/dtails.png)  
-![Cart](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/carts.png)  
-![Order](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/orders.png)  
+![Details]  
+![Cart]  
+![Order]
 
-## Installation
-
-To run this project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mustafaylmzz/Shopping-Website-.git
