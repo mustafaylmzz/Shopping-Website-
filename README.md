@@ -22,19 +22,19 @@ This is a backend project developed using **Node.js** and **Pug template engine*
 - **Authentication**: Csurf
 
 ## Login-Register Screens: 
-![Login]  (public/ss/login.png)
-![Register]  
+![Login](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/login.png)
+![Register](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/register.png)
 
 ## Project Admin Panels: 
-![Home]
-![AdminProduct]  
-![Add Product]  
-![Category]
-![CategoryDelete]  
-![ProductEdit] 
+![Home](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Home.png)
+![AdminProduct](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AdminProduct.png)
+![Add Product](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AddProduct.png)
+![Category](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Category.png)
+![CategoryDelete](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/CategoryDelete.png)
+![ProductEdit](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/ProductEdit.png)
 
 ## Project User Panels:  
-![Details]  
-![Cart]  
-![Order]
+![Details](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/dtails.png)
+![Cart](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/carts.png)
+![Order](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/orders.png)
 
