@@ -22,19 +22,19 @@ This is a backend project developed using **Node.js** and **Pug template engine*
 - **Authentication**: Csurf
 
 ## Login-Register Screens: 
-![Login](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/logins.png)
-![Register](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/registers.png)
+![Login] (public/ss/logins.png)
+![Register](public/ss/registers.png)
 
 ## Project Admin Panels: 
-![Home](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Homes.png)
-![AdminProduct](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AdminProducts.png)
-![Add Product](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/AddProducts.png)
-![Category](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/Categor.png)
-![CategoryDelete](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/CategoryDeletes.png)
-![ProductEdit](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/ProductEdits.png)
+![Home](public/ss/Homes.png)
+![AdminProduct](public/ss/AdminProducts.png)
+![Add Product](public/ss/AddProducts.png)
+![Category](public/ss/Categor.png)
+![CategoryDelete](public/ss/CategoryDeletes.png)
+![ProductEdit](public/ss/ProductEdits.png)
 
 ## Project User Panels:  
-![Details](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/details.png)
-![Cart](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/cart.png)
-![Order](https://github.com/mustafaylmzz/Shopping-Website-/raw/main/public/ss/order.png)
+![Details](public/ss/detail.png)
+![Cart](public/ss/cart.png)
+![Order](public/ss/order.png)
 
