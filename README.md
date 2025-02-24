@@ -22,7 +22,7 @@ This is a backend project developed using **Node.js** and **Pug template engine*
 - **Authentication**: Csurf
 
 ## Login-Register Screens: 
-![Login]  
+![Login]  (public/ss/login.png)
 ![Register]  
 
 ## Project Admin Panels: 
