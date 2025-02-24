@@ -1,0 +1,41 @@
+extends ../layout/main-layout.pug
+
+block content
+    // Hata ve başarı mesajları
+    if (action && action === "delete")
+        div.alert.alert-danger The product has been deleted
+    if (action && action === "edit")
+        div.alert.alert-success The product has been updated
+
+    // Ürünler varsa tabloyu göster
+    if products.length > 0
+        table.table.table-bordered
+            thead
+                tr
+                    th(style="width:100px;") Image
+                    th Product Name
+                    th(style="width:100px;") Price
+                    th(style="width:100px;") Admin
+                    th(style="width:100px;") Actions
+            tbody
+                each product in products
+                    tr
+                        // Ürün resmi
+                        td
+                            img(src=`/img/${product.imageurl}` width="80")
+                        // Ürün adı
+                        td #{product.name}
+                        // Ürün fiyatı
+                        td #{product.price} TL
+                        // Admin adı (user.name)
+                        td #{user.name}
+                        // Düzenleme ve silme işlemleri
+                        td
+                            // Ürün düzenleme linki
+                            a.btn.btn-primary.btn-sm.mr-2(href=`/admin/products/${product.id}`) Edit
+                            form(action="/admin/delete-product" method="POST" style="display:inline-block;")
+                                input(type="hidden" name="_csrf" value=csrfToken)
+                                input(type="hidden" name="id" value=`${product.id}`)
+                                button(type="submit").btn.btn-danger.btn-sm Delete
+    else
+        h1 No products

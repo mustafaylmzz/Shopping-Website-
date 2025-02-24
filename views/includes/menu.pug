@@ -1,0 +1,15 @@
+.list-group
+    if categories.length > 0
+        each category in categories
+            a.list-group-item(
+                href=`/categories/${category.id}`
+                class=category.id == selectedCategory ? "list-group-item list-group-item-action active shadow-sm mb-2" : "list-group-item list-group-item-action hover-shadow mb-2"
+                style="transition: transform 0.2s ease-in-out;"
+                title=category.name
+            )
+                // Hover efekti eklemek için:
+                span(style="font-weight: bold; font-size: 1.1em;") #{category.name}
+                // İkon eklemek isterseniz:
+                i.fa.fa-arrow-right.ml-2(style="font-size: 1.2em;")
+    else
+        p No categories available.

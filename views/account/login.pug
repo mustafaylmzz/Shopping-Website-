@@ -1,0 +1,31 @@
+extends ../layout/main-layout.pug
+
+block content
+  .container
+    .row.justify-content-center
+      .col-md-6
+        // Error message
+        if errorMessage
+          div.alert.alert-danger.col-sm-12= errorMessage
+        
+        // Login form
+        form(action="/account/login" method="POST")
+          input(type="hidden" name="_csrf" value=csrfToken)
+          
+          .card
+            .card-body
+              h4.card-title.text-center Login
+
+              .form-group
+                label(for="email") Email
+                input.form-control#email(type="text" name="email" placeholder="Enter your email")
+              
+              .form-group
+                label(for="password") Password
+                input.form-control#password(type="password" name="password" placeholder="Enter your password")
+              
+              .form-group.text-center
+                input(type="submit" value="Login").btn.btn-primary.btn-block
+
+            .card-footer.text-center
+              a(href="/account/reset-password" class="btn btn-link p-0") Forgot Password?

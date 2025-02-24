@@ -1,0 +1,42 @@
+extends ../layout/main-layout.pug
+
+block content
+  if errorMessage
+    div.alert.alert-danger.col-sm-7 !{errorMessage}
+  form(action="/admin/add-product" method="POST" enctype="multipart/form-data")
+    input(type="hidden" name="_csrf" value=csrfToken)
+    .form-group.row
+      label.col-sm-2(for="name") Name
+      .col-sm-10
+        input.form-control(type="text" name="name" id="name" value=inputs.name)
+    .form-group.row
+      label.col-sm-2(for="price") Price
+      .col-sm-10
+        input.form-control(type="text" name="price" id="price" value=inputs.price)
+    .form-group.row
+      label.col-sm-2(for="imageurl") Image
+      .col-sm-10
+        input.form-control-file(type="file" name="imageurl" id="imageurl")
+    .form-group.row
+      label.col-sm-2(for="categoryid") Category
+      .col-sm-10
+        select.form-control#categoryid(name="categoryid")
+          option(value="-1" selected=inputs.categoryid == -1) Select Category
+          each category in categories
+            option(value=category.id selected=(inputs.categoryid == category.id)) #{category.name}
+    .form-group.row
+      label.col-sm-2(for="description") Description
+      .col-sm-10
+        textarea.form-control(id="description" name="description" cols="30" rows="10")= inputs.description
+    .form-group.row
+      .col-sm-10.offset-sm-2
+        input.btn.btn-primary(type="submit" value="Save Product")
+
+block script
+  script(src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js")
+  script.
+    ClassicEditor
+      .create(document.querySelector('#description'))
+      .catch(error => {
+        console.error(error);
+      });

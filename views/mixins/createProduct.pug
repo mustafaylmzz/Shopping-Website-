@@ -1,0 +1,18 @@
+mixin createProduct(product)
+    .col-sm-6.col-md-4.col-lg-3
+        .card.mb-4.shadow-sm 
+            img.card-img-top(
+                src=`/img/${product.imageurl}`
+                alt="Product Image"
+                style="height: 200px; object-fit: cover;"
+            )
+            .card-body.text-center 
+                h5.card-title.text-truncate 
+                    a(href=`/products/${product.id}`)= product.name
+                small.text-muted $#{product.price}
+            .card-footer.text-center
+                a.btn.btn-outline-primary.btn-sm.ml-3(href=`/products/${product.id}`) Details
+                form(action="/cart" method="POST")
+                    input(type="hidden" name="_csrf" value=csrfToken)
+                    input(type="hidden" name="productId" value=`${product.id}`)
+                    button(type="submit").btn.btn-outline-primary.btn-sm Add to Cart

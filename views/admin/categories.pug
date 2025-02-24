@@ -1,0 +1,30 @@
+extends ../layout/main-layout.pug
+
+
+block content
+    if(action!=="undefined" && action==="delete" )
+        div.alert.alert-danger The category has been delete
+    if(action!=="undefined" && action==="edit" )
+        div.alert.alert-success The category has been update
+    if(action!=="undefined" && action==="has-products" )
+        div.alert.alert-danger The category could not be deleted because there is a product in the category.
+    a.btn.btn-danger.btn-sm.mr-2(href="/admin/add-category") +Category Ekle
+    if categories.length > 0 
+        table.table.table-bordered.mt-2
+            thead 
+                tr 
+                    th category Name 
+                    th(style="width:100px;") Description
+                    th(style="width:100px;") Admin
+                    th(style="width:100px;") 
+            tbody 
+                each category in categories    
+                    tr 
+                        td #{category.name}
+                        td !{category.description}
+                        td #{user.name}
+                        td 
+                            a.btn.btn-primary.btn-sm.mr-2(href=`/admin/categories/${category.id}`) Edit
+                            a.btn.btn-danger.btn-sm.mr-2.mt-2(href=`/admin/delete-category/${category.id}`) Delete
+    
+    

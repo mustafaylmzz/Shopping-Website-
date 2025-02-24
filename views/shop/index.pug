@@ -1,0 +1,18 @@
+extends ../layout/main-layout.pug
+
+include ../mixins/createProduct.pug
+
+block content
+    .container
+        .row
+            .col-md-3
+                include ../includes/menu.pug
+
+            .col-md-9
+                include ../includes/slider.pug
+                .row.mt-2.g-3 
+                    if products.length > 0
+                        each product in products
+                            +createProduct(product)
+                    else    
+                        h1.text-center No Products

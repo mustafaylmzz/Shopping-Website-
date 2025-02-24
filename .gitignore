@@ -1,0 +1,6 @@
+node_modules/
+public/img/
+.env
+config/config.json
+seeders/
+migrations/

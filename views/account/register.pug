@@ -1,0 +1,35 @@
+extends ../layout/main-layout.pug
+
+block content
+  .container
+    .row.justify-content-center
+      .col-md-6
+        // Error message
+        if errorMessage
+          div.alert.alert-danger.col-sm-12= errorMessage
+        
+        // Registration form
+        form(action="/account/register" method="POST")
+          input(type="hidden" name="_csrf" value=csrfToken)
+          
+          .card
+            .card-body
+              h4.card-title.text-center Register
+
+              .form-group
+                label(for="name") Name
+                input.form-control#name(type="text" name="name" placeholder="Enter your name")
+
+              .form-group
+                label(for="email") Email
+                input.form-control#email(type="text" name="email" placeholder="Enter your email")
+
+              .form-group
+                label(for="password") Password
+                input.form-control#password(type="password" name="password" placeholder="Enter your password")
+              
+              .form-group.text-center
+                input(type="submit" value="Register").btn.btn-primary.btn-block
+
+            .card-footer.text-center
+              a(href="/account/login" class="btn btn-link p-0") Already have an account? Login

@@ -1,0 +1,27 @@
+extends ../layout/main-layout.pug
+
+block content
+  if errorMessage
+    div.alert.alert-danger.col-sm-7 !{errorMessage}
+  form(action="/admin/add-category" method="POST" enctype="multipart/form-data")
+    input(type="hidden" name="_csrf" value=csrfToken)
+    .form-group.row
+      label.col-sm-2(for="name") Name
+      .col-sm-10
+        input.form-control(type="text" name="name" id="name" value=`${inputs.name}`)
+    .form-group.row
+      label.col-sm-2(for="description") Description
+      .col-sm-10
+        textarea.form-control(id="description" name="description" cols="30" rows="10") #{inputs.description}
+    .form-group.row
+      .col-sm-10.offset-sm-2
+        input.btn.btn-primary(type="submit" value="Save Category")
+
+block script
+  script(src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js")
+  script.
+    ClassicEditor
+      .create(document.querySelector('#description'))
+      .catch(error => {
+        console.error(error);
+      });
